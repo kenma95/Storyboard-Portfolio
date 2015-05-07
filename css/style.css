@@ -1,0 +1,31 @@
+/*General style table
+*/
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+    background-image: url(http://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-5-full.jpg);
+  background-attachment:fixed
+
+}
+
+.Title{
+
+}
+
+
+.footer {
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+
+}
+
+.footer {
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+
+}

@@ -6,42 +6,90 @@
     <meta charset="utf-8">
     <link rel="icon" href="../../favicon.ico">
 
-   <title>lllllllllllllllllllllll</title>
+   <title>taH-Homepage</title>
 
    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
-   <link href="css/index_style.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+      <link href="css/index_style.css" rel="stylesheet">
+
+   <link href="css/style.css" rel="stylesheet">
+
 
 </head>
-<body>
 
 
-
+<body >
 <div class="container">
+ <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="mailto:mar3@rpi.edu">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="main-title">Project taH: to arrest Hat</h3>
+      </div>
 
-    <!-- The justified navigation menu is meant for single line per list item. -->
-    <div class="masthead">
-      <h1 class="text-muted">DogHouse</h1>
-      <nav>
-        <ul class="nav nav-justified">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="Portfolio.html">Portfolio</a></li>
-          <li><a href="Download">Downloads</a></li>
-          <li><a href="mailto:mar3@rpi.edu">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+ <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="Thumbnail/s2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
 
 
-    <!-- Jumbotron -->
+    <!-- Jumbotron 
+
     <div class="jumbotron" >
-        <h1>
-          你是狗吗？    <!-- Jumbotron
-          <img src="http://i.imgur.com/C6nyHcc.png" class="center-block" max-width: 30%;/>
--->
+        <h1>你是狗吗？   
         </h1>
       <blockquote>
       <p>I am the Bone of my Sword<br>
@@ -55,72 +103,120 @@
         Unlimited Blade Works</p>
       <footer>A Bypassing Archer in<cite title="Source Title">菲特/今晚留下来</cite></footer>
     </blockquote>
-    <!-- Buttton-no use
-    <a class="btn btn-lg btn-success" href="#" role="button">Get started today</a>-->
+     Buttton-no use
+    <a class="btn btn-lg btn-success" href="#" role="button">Get started today</a>
     </p>
     </div>
 
 
-<p>
-   This is a study and demonstration purpose of the website of Ruiqi Ma.
-   This website will be in use untill my graduation from RPI in 2017.
-</p>
 
 
 
-
-
-  <div class="row">
-    <div class="col-md-6">
-      <div class="thumbnail">
-         <img src="http://i.imgur.com/GKivGje.png"/>
+     The justified navigation menu is meant for single line per list item.
+    <div class="masthead">
+       <h1 class="text-muted">DogHouse</h1>
+      <nav>
+        <ul class="nav nav-justified">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <li><a href="Download">Downloads</a></li>
+          <li><a href="mailto:mar3@rpi.edu">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+-->
+  <div class="row" >
+    <div class="col-md-4" >
+      <div class="thumbnail" >
+         <img src="Thumbnail/s1.jpg"/>
          <div class="caption">
-           <h3>Display 1</h3>
-           <p>Assignment discription</p>
-           <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+           <h3>Original Character Design</h3>
+           <p>Four Different emotions of a single original character design.</p>
+           <p><a href="s1.html" class="btn btn-primary" role="button">Read More</a> </p>
          </div>
         </div>
     </div>
 
 
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="thumbnail">
-         <img src="http://yunoprpr.com/wp-content/uploads/2015/04/cropped-cropped-cropped-2014-04-15-23-54-00.jpg"/>
+         <img src="Thumbnail/s2.jpg"/>
          <div class="caption">
-           <h3>Display 2</h3>
-           <p>Assignment discription<br><br><br><br><br><br><br><br></p>
-           <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+           <h3>Character Design: <br>Detailed vs Iconic</h3>
+           <p>Two distinct style on a single character.</p>
+           <p><a href="s2.html" class="btn btn-primary" role="button">Read More</a> </p>
          </div>
        </div>
 
     </div>
+
+        <div class="col-md-4">
+      <div class="thumbnail">
+         <img src="Thumbnail//s3.jpg"/>
+         <div class="caption">
+           <h3>Comic Design: <br>Stroboscopic vs Temporal</h3>
+           <p>Two different time passing comic design.</p>
+           <p><a href="s3.html" class="btn btn-primary" role="button">Read More</a> </p>
+         </div>
+        </div>
   </div>
 
 
-  <!-- One kind of the row-no longer use
-  <div class="row">
-    <div class="col-md-6">
-      <h4>Lancer</h4>
-      <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-      <p><img src="http:////i.imgur.com/8EaI46a.png" class="img-responsive"/></p>
-    </div>
-    <div class="col-md-6">
-      <h4>Caster</h4>
-      <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-      <p><img src="http:////i.imgur.com/8EaI46a.png" class="img-responsive"/>
-      </p>
-    </div>
-  </div>
--->
 
   <div class="row">
+
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+         <img src="Thumbnail/s4.jpg"/>
+         <div class="caption">
+           <h3>Infographic Design</h3>
+           <p>Inforgrapic style non-linear storytelling.</p>
+           <p><a href="s4.html" class="btn btn-primary" role="button">Read More</a> </p>
+         </div>
+       </div>
+
+    </div>
+
+<div class="col-md-4">
+      <div class="thumbnail">
+         <img src="Thumbnail/s5.jpg"/>
+         <div class="caption">
+           <h3>Storyboard</h3>
+           <p>Pure visual form storyboad design base on a narrative paragraph.</p>
+           <p><a href="s5.html" class="btn btn-primary" role="button">Read More</a> </p>
+         </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+         <img src="Thumbnail/s6.jpg"/>
+         <div class="caption">
+           <h3>Text = Text and Image Comic</h3>
+           <p>Storyboard in combination of text(speech bubbles, narration) and image.</p>
+           <p><a href="s6.html" class="btn btn-primary" role="button">Read More</a> </p>
+         </div>
+       </div>
+
+    </div>
+
+
+  </div>
+
+
+    <div class="row">
     <div class="col-md-6">
       <div class="thumbnail">
-         <img src="http://i.imgur.com/C6nyHcc.png"/>
+         <img src="Thumbnail/s7.jpg"/>
          <div class="caption">
-           <h3>Display 7</h3>
-           <p>Assignment discription</p>
-           <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+           <h3>Environment Design</h3>
+           <p>Non-linear sequential graphic design describing the world.</p>
+           <p><a href="s7.html" class="btn btn-primary" role="button">Read More</a> </p>
          </div>
         </div>
     </div>
@@ -128,11 +224,11 @@
 
     <div class="col-md-6">
       <div class="thumbnail">
-         <img src="http://i.imgur.com/cvxKr2P.png"/>
+         <img src="Thumbnail/s8.jpg"/>
          <div class="caption">
-           <h3>Display 8</h3>
-           <p>Assignment discription</p>
-           <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+           <h3>Final Storyboard Design</h3>
+           <p>3-5 pages narrative comic design.</p>
+           <p><a href="#" class="btn btn-primary" role="button">Read More</a> </p>
          </div>
        </div>
 
@@ -148,7 +244,14 @@
 
 
 <footer class="footer">
-  <p>&copy;Ruiqi Ma, 2015</p>
+<p>
+   This is a study and demonstration purpose of the website of Ruiqi Ma.
+   This website will be in use untill my graduation from RPI in 2017.
+</p>
+  <p>&copy;Ruiqi Ma, 2015. Proudly Powered by <a href="http://getbootstrap.com/
+"> Bootstrap </a></p>
+          <p class="pull-right"><a href="#">Back to top</a></p>
+
 </footer>
 
 </div> <!-- /container -->
