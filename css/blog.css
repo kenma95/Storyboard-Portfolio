@@ -3,23 +3,11 @@
  */
 
 .main-title {
-color: yellow;
+color: grey;
 font-family: 'Righteous', cursive;
 font-size: 50px;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6
-{
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  
-}
 
 
 
@@ -50,6 +38,12 @@ h6, .h6
   color: white;
 }
 
+.blog-spec{
+  padding-top: 50px;
+  font-family: Arial;
+
+}
+
 
 /*
  * Main column and sidebar layout
@@ -64,6 +58,11 @@ h6, .h6
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
+
+}
+
+.sidebar-module-transparent{
+  color: white;
 }
 .sidebar-module-inset {
   padding: 15px;
@@ -113,7 +112,7 @@ h6, .h6
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-right: 0px;
     margin-left: 0px;
 
@@ -122,7 +121,10 @@ h6, .h6
   border-radius: 4px;
 }
 
+.blog-post-intro{
 
+    padding-bottom: 50px;
+}
 
 /*
  * Footer
@@ -140,4 +142,17 @@ h6, .h6
 
 .current_archive{
   color: white;
+}
+
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  
 }

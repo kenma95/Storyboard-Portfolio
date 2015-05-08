@@ -1,7 +1,7 @@
 
 
 .main-title {
-color: yellow;
+color: grey;
 font-family: 'Righteous', cursive;
 font-size: 50px;
 }
@@ -32,7 +32,6 @@ font-size: 50px;
 }
 
 body {
-  padding-top: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei","黑体","宋体",sans-serif;
   background-image: url(http://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-5-full.jpg);
   background-attachment:fixed

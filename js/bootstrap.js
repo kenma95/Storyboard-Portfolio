@@ -350,7 +350,10 @@ if (typeof jQuery === 'undefined') {
     this.options.interval
       && !this.paused
       && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
-
+      && (this.interval = setInterval(// Make use of Page Visibility API when it's available
+          $.proxy(document.visibilityState ? this.nextWhenVisible : this.next, this),
+          this.options.interval
+          ))
     return this
   }
 
